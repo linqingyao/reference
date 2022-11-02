@@ -326,7 +326,7 @@ for (int i=0; i < arr.length; i++) {
 ### Loop (Read)
 ```java
 String[] arr = {"a", "b", "c"};
-for (int a: arr) {
+for (String a: arr) {
     System.out.print(a + " ");
 }
 // Outputs: a b c 
